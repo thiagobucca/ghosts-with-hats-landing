@@ -222,6 +222,19 @@ strong {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/* Mobile menu language */
+.mobile-lang {
+    margin-top: 24px;
+    justify-content: center;
+}
+
+/* Esconde o switcher do header no mobile */
+@media (max-width: 768px) {
+    .header-social .lang-switcher {
+        display: none;
+    }
+}
+
 .lang-btn {
     font-family: var(--font-primary);
     font-size: 0.75rem;
