@@ -228,6 +228,15 @@ strong {
     justify-content: center;
 }
 
+.mobile-menu .lang-switcher {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+
+    width: 100%;
+    justify-content: center;
+}
+
 /* Esconde o switcher do header no mobile */
 @media (max-width: 768px) {
     .header-social .lang-switcher {
