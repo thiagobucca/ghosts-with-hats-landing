@@ -330,6 +330,19 @@ strong {
     overflow: hidden;
 }
 
+/* Mobile MP4 Video Background */
+.hero-video-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+}
+
 .hero-video-container iframe {
     position: absolute;
     top: 50%;
@@ -1166,14 +1179,20 @@ strong {
         font-size: 16px;
     }
 
-    /* Hide video on mobile for performance */
+    /* Hide YouTube iframe on mobile */
     .hero-video-container {
         display: none;
     }
 
+    /* Show MP4 video on mobile */
+    .hero-video-mobile {
+        display: block;
+    }
+
+    /* Keep image as ultimate fallback */
     .hero-fallback-bg {
-        opacity: 0.4;
-        z-index: 0;
+        opacity: 0.35;
+        z-index: -1;
     }
 
     .container {
