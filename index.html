@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Ghosts With Hats - Um jogo de corrida arcade top-down onde fantasmas competem em pistas dinâmicas. Desenvolvido por Pinatra Studios.">
+    <meta name="keywords"
+        content="Ghosts With Hats, indie game, racing game, arcade, fantasmas, Pinatra Studios, Steam">
+    <meta name="author" content="Pinatra Studios">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Ghosts With Hats - Racing Arcade Game">
+    <meta property="og:description"
+        content="Um jogo de corrida arcade top-down rápido onde fantasmas competem em pistas dinâmicas.">
+    <meta property="og:image"
+        content="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4040130/7c96ea81f18b7d16775f09fd234f1603f5ea8820/header.jpg">
+    <meta property="og:url" content="https://ghostswithhats.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ghosts With Hats">
+    <meta name="twitter:description"
+        content="Um jogo de corrida arcade top-down rápido onde fantasmas competem em pistas dinâmicas.">
+
+    <title>Ghosts With Hats | Pinatra Studios</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png"
+        href="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4040130/7c96ea81f18b7d16775f09fd234f1603f5ea8820/header.jpg">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <!-- Logo Left -->
+            <a href="#" class="header-logo">
+                <img src="images/logos/logo-pinatra.jpg" alt="Pinatra Studios" class="header-logo-img">
+            </a>
+
+            <!-- Social Links Right -->
+            <div class="header-social">
+                <a href="https://store.steampowered.com/app/4040130/Ghosts_With_Hats/" target="_blank"
+                    class="social-link" aria-label="Steam">
+                    <svg viewBox="0 0 256 259" fill="currentColor">
+                        <path
+                            d="M127.779 0C57.895 0 .834 55.417.003 124.689l68.673 28.397c5.833-3.986 12.876-6.32 20.471-6.32.681 0 1.354.019 2.023.056l30.628-44.381v-.623c0-30.143 24.527-54.67 54.67-54.67 30.144 0 54.67 24.527 54.67 54.67 0 30.143-24.526 54.67-54.67 54.67h-1.246l-43.672 31.185c0 .563.027 1.13.027 1.7 0 22.627-18.398 41.024-41.024 41.024-20.148 0-36.928-14.57-40.373-33.74l-49.182-20.362C23.41 229.906 71.063 258.996 125.779 258.996c71.19 0 128.889-57.7 128.889-128.889C254.668 57.7 197.969 0 127.779 0" />
+                    </svg>
+                </a>
+                <a href="https://discord.gg/aUeBEKveFD" target="_blank" class="social-link" aria-label="Discord">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/pinatrastudios" target="_blank" class="social-link"
+                    aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+
+                <!-- Language Switcher -->
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <span class="lang-divider">|</span>
+                    <button class="lang-btn" data-lang="pt">PT</button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobile-menu">
+        <a href="https://store.steampowered.com/app/4040130/Ghosts_With_Hats/" target="_blank">Steam</a>
+        <a href="https://discord.gg/aUeBEKveFD" target="_blank">Discord</a>
+        <a href="https://www.instagram.com/pinatrastudios" target="_blank">Instagram</a>
+           <!-- Language Switcher (Mobile) -->
+    <div class="lang-switcher mobile-lang">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="pt">PT</button>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <!-- YouTube Video Background -->
+            <div class="hero-video-container">
+                <iframe id="hero-video"
+                    src="https://www.youtube.com/embed/TuEkbGrUDSU?autoplay=1&mute=1&loop=1&playlist=TuEkbGrUDSU&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
+                    title="Ghosts With Hats Gameplay"></iframe>
+            </div>
+            <!-- Fallback image for mobile/slow connections -->
+            <!-- Mobile MP4 Video Background -->
+            <video class="hero-video-mobile" autoplay muted loop playsinline preload="auto">
+                <source src="videos/video-header.mp4" type="video/mp4">
+            </video>
+
+            <!-- Image fallback (se vídeo não carregar) -->
+            <div class="hero-fallback-bg"></div>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <a href="https://store.steampowered.com/app/4040130/Ghosts_With_Hats/" target="_blank"
+                class="hero-logo-link fade-in">
+                <img src="images/logos/logo-main.png" alt="Ghosts With Hats" class="hero-logo">
+            </a>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section section-story" id="story">
+        <div class="section-background">
+            <div class="parallax-layer" data-speed="0.1"></div>
+        </div>
+
+        <div class="container">
+            <div class="story-wrapper reveal">
+                <div class="story-decoration story-decoration-top"></div>
+
+                <div class="story-content">
+                    <h2 class="story-title" data-i18n="story.title">The Mystery Unfolds</h2>
+
+                    <div class="story-divider">
+                        <span></span>
+                        <svg class="story-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2C7.03 2 3 6.03 3 11v9l2.5-2 2.5 2 2.5-2 2.5 2 2.5-2 2.5 2v-9c0-4.97-4.03-9-9-9zm-3 9c-.83 0-1.5-.67-1.5-1.5S8.17 8 9 8s1.5.67 1.5 1.5S9.83 11 9 11zm6 0c-.83 0-1.5-.67-1.5-1.5S14.17 8 15 8s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+                        </svg>
+                        <span></span>
+                    </div>
+
+                    <div class="story-text">
+                        <p class="story-lead" data-i18n="story.p1">
+                            In a world where all humans have mysteriously transformed into ghosts,
+                            follow <strong>Linda</strong> on her journey to uncover the truth.
+                        </p>
+                        <p data-i18n="story.p2">
+                            What caused this supernatural transformation? Why do these spectral beings
+                            now race through haunted tracks, collecting ancient relics?
+                        </p>
+                        <p class="story-closing" data-i18n="story.p3">
+                            The answers lie ahead... if you can reach the finish line first.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="story-decoration story-decoration-bottom"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section section-features" id="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-block reveal">
+                    <div class="feature-icon">
+                        <span>24</span>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.tracks.title">Dynamic Tracks</h3>
+                    <p class="feature-desc" data-i18n="features.tracks.desc">
+                        Race through 24 unique tracks filled with obstacles, shortcuts,
+                        and secrets. Each track offers a different challenge across
+                        10 difficulty levels.
+                    </p>
+                </div>
+
+                <div class="feature-block reveal">
+                    <div class="feature-icon">
+                        <span>6</span>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.ghosts.title">Playable Ghosts</h3>
+                    <p class="feature-desc" data-i18n="features.ghosts.desc">
+                        Choose from 6 unique characters: Linda, Josh, Mikael, Kid,
+                        Grandpa, and Hanna. Each ghost brings their own personality
+                        and playstyle to the race.
+                    </p>
+                </div>
+
+                <div class="feature-block reveal">
+                    <div class="feature-icon">
+                        <span>∞</span>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.progression.title">Deep Progression</h3>
+                    <p class="feature-desc" data-i18n="features.progression.desc">
+                        Collect relics, upgrade your stats, and unlock powerful abilities
+                        through an extensive talent tree. Build offensive or defensive
+                        strategies to dominate the competition.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gameplay Section -->
+    <section class="section section-gameplay" id="gameplay">
+        <div class="section-background dark">
+            <div class="parallax-layer" data-speed="0.15"></div>
+        </div>
+
+        <div class="container">
+            <h2 class="section-title centered reveal" data-i18n="gameplay.title">Intense Arcade Racing</h2>
+
+            <div class="gameplay-content">
+                <div class="gameplay-text reveal">
+                    <p class="lead" data-i18n="gameplay.lead">
+                        Ghosts With Hats combines fast-paced top-down racing with
+                        strategic combat mechanics.
+                    </p>
+                    <ul class="gameplay-list">
+                        <li data-i18n="gameplay.list1">
+                            <strong>Attack & Sprint</strong> — Use special abilities to
+                            defeat opponents and steal their relics
+                        </li>
+                        <li data-i18n="gameplay.list2">
+                            <strong>Relic System</strong> — Collect relics to progress,
+                            but lose them if you're defeated
+                        </li>
+                        <li data-i18n="gameplay.list3">
+                            <strong>Talent Tree</strong> — Customize your playstyle with
+                            offensive or defensive builds
+                        </li>
+                        <li data-i18n="gameplay.list4">
+                            <strong>Story Mode</strong> — Uncover the mystery across
+                            multiple chapters and difficulties
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="gameplay-visual reveal">
+                    <div class="visual-frame">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4040130/7c96ea81f18b7d16775f09fd234f1603f5ea8820/header.jpg"
+                            alt="Ghosts With Hats Gameplay" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Characters Section -->
+    <section class="section section-characters" id="characters">
+        <div class="container">
+            <h2 class="section-title centered reveal" data-i18n="characters.title">The Racers</h2>
+
+            <div class="characters-grid">
+                <div class="character-card reveal">
+                    <div class="character-portrait">
+                        <img src="images/characters/linda.png" alt="Linda" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">Linda</h3>
+                        <p class="character-role" data-i18n="characters.linda">Nerves on edge</p>
+                    </div>
+                </div>
+
+                <div class="character-card reveal">
+                    <div class="character-portrait">
+                        <img src="images/characters/josh.png" alt="Josh" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">Josh</h3>
+                        <p class="character-role" data-i18n="characters.josh">The watchful police officer</p>
+                    </div>
+                </div>
+
+                <div class="character-card reveal">
+                    <div class="character-portrait">
+                        <img src="images/characters/mikael.png" alt="Mikael" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">Mikael</h3>
+                        <p class="character-role" data-i18n="characters.mikael">The man who just needs a cup of coffee
+                        </p>
+                    </div>
+                </div>
+
+                <div class="character-card reveal">
+                    <div class="character-portrait">
+                        <img src="images/characters/kid.png" alt="Kid" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">Kid</h3>
+                        <p class="character-role" data-i18n="characters.kid">The cheerful child who lives in a fantasy
+                            world</p>
+                    </div>
+                </div>
+
+                <div class="character-card reveal">
+                    <div class="character-portrait">
+                        <img src="images/characters/grandpa.png" alt="Grandpa" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">Grandpa</h3>
+                        <p class="character-role" data-i18n="characters.grandpa">The grumpy old man</p>
+                    </div>
+                </div>
+
+                <div class="character-card reveal">
+                    <div class="character-portrait">
+                        <img src="images/characters/hanna.png" alt="Hanna" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3 class="character-name">Hanna</h3>
+                        <p class="character-role" data-i18n="characters.hanna">The calm and wise one</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section class="section section-platforms" id="platforms">
+        <div class="platforms-content reveal">
+            <h2 class="section-title centered" data-i18n="platforms.title">Available On</h2>
+
+            <div class="all-ghosts-showcase">
+                <img src="images/characters/all-ghosts.png" alt="All Ghosts Characters" class="all-ghosts-img">
+                <a href="https://store.steampowered.com/app/4040130/Ghosts_With_Hats/" target="_blank"
+                    class="platform-logo-overlay" aria-label="Steam">
+                    <svg viewBox="0 0 256 259" fill="currentColor">
+                        <path
+                            d="M127.779 0C57.895 0 .834 55.417.003 124.689l68.673 28.397c5.833-3.986 12.876-6.32 20.471-6.32.681 0 1.354.019 2.023.056l30.628-44.381v-.623c0-30.143 24.527-54.67 54.67-54.67 30.144 0 54.67 24.527 54.67 54.67 0 30.143-24.526 54.67-54.67 54.67h-1.246l-43.672 31.185c0 .563.027 1.13.027 1.7 0 22.627-18.398 41.024-41.024 41.024-20.148 0-36.928-14.57-40.373-33.74l-49.182-20.362C23.41 229.906 71.063 258.996 125.779 258.996c71.19 0 128.889-57.7 128.889-128.889C254.668 57.7 197.969 0 127.779 0" />
+                    </svg>
+                    <span>Steam</span>
+                </a>
+            </div>
+
+            <div class="container">
+                <div class="platform-info">
+                    <div class="info-item">
+                        <span class="info-label" data-i18n="platforms.release">Release</span>
+                        <span class="info-value">2026</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" data-i18n="platforms.languages">Languages</span>
+                        <span class="info-value" data-i18n="platforms.languagesValue">9 Languages</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label" data-i18n="platforms.controller">Controller</span>
+                        <span class="info-value" data-i18n="platforms.controllerValue">Full Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Studio Section -->
+    <section class="section section-studio" id="studio">
+        <div class="container">
+            <div class="studio-content reveal">
+                <a href="https://www.instagram.com/pinatrastudios" target="_blank" class="studio-logo-link">
+                    <img src="images/logos/logo-pinatra-horizontal.png" alt="Pinatra Studios" class="studio-logo-img">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://store.steampowered.com/app/4040130/Ghosts_With_Hats/" target="_blank"
+                        class="footer-social-link" aria-label="Steam">
+                        <svg viewBox="0 0 256 259" fill="currentColor">
+                            <path
+                                d="M127.779 0C57.895 0 .834 55.417.003 124.689l68.673 28.397c5.833-3.986 12.876-6.32 20.471-6.32.681 0 1.354.019 2.023.056l30.628-44.381v-.623c0-30.143 24.527-54.67 54.67-54.67 30.144 0 54.67 24.527 54.67 54.67 0 30.143-24.526 54.67-54.67 54.67h-1.246l-43.672 31.185c0 .563.027 1.13.027 1.7 0 22.627-18.398 41.024-41.024 41.024-20.148 0-36.928-14.57-40.373-33.74l-49.182-20.362C23.41 229.906 71.063 258.996 125.779 258.996c71.19 0 128.889-57.7 128.889-128.889C254.668 57.7 197.969 0 127.779 0" />
+                        </svg>
+                    </a>
+                    <a href="https://discord.gg/aUeBEKveFD" target="_blank" class="footer-social-link"
+                        aria-label="Discord">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/pinatrastudios" target="_blank" class="footer-social-link"
+                        aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    Ghosts With Hats is &copy; Copyright 2026 Pinatra Studios
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
